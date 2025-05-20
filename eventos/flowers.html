@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Floricultura</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="flowers.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="./imagens/logo.png" alt="Logo Floricultura" />
+      <span>Zucchini Garden</span>
+    </div>
+    <nav class="nav">
+      <a href="#arranjos" onmouseover="this.style.color='#f07cac'" onmouseout="this.style.color='#1e1e1e'">Arranjos Personalizados</a>
+      <a href="contato.html" onmouseover="this.style.color='#f07cac'" onmouseout="this.style.color='#1e1e1e'">Fale Conosco</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="banner-text">
+      <h4>Surpreenda com Flores</h4>
+      <h1>Arranjos únicos para momentos especiais</h1>
+      <p>Deixe seu gesto mais especial com nossas flores frescas e selecionadas.</p>
+      <a href="contato.html" class="btn">Faça seu pedido</a>
+    </div>
+    <div class="social">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" alt="Facebook">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/youtube-play.png" alt="YouTube">
+      </div>
+    <div class="dots">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </section>
+
+  <section id="arranjos" class="container" style="padding: 30px;">
+    <h2 style="color:#fff; margin-bottom: 15px;">Arranjos Personalizados</h2>
+    <p style="color:#dfcbd6;">Escolha entre diversas combinações e estilos florais que encantam e emocionam.</p>
+  </section>
+
+  <div class="galeria-arranjos">
+    <div class="arranjo-item">
+      <img src="https://images.tcdn.com.br/img/img_prod/1343514/arranjo_de_flores_artificiais_rosas_vermelhas_no_vaso_bronze_1777_2_a331a6a8aa2a50866198144da8eb1cb9.jpg" alt="Arranjo de Rosas">
+      <p class="titulo-arranjo">Arranjo de Rosas Vermelhas</p>
+    </div>
+    <div class="arranjo-item">
+      <img src="https://static.wixstatic.com/media/681d89_9ba64801e30d46d9b3ac605f7939d754~mv2.jpg/v1/fill/w_440,h_566,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/681d89_9ba64801e30d46d9b3ac605f7939d754~mv2.jpg" alt="Arranjo de Orquídeas">
+      <p class="titulo-arranjo">Arranjo de Orquídeas</p>
+    </div>
+    <div class="arranjo-item">
+      <img src="https://cdn.awsli.com.br/600x700/601/601454/produto/241124215/662f5a6f-ecc0-490e-bc57-455b802a0750-ccez4jcn4f.jpg" alt="Arranjo de Girassóis">
+      <p class="titulo-arranjo">Arranjo de Girassóis</p>
+    </div>
+    <div class="arranjo-item">
+      <img src="https://images.tcdn.com.br/img/img_prod/1261116/arranjo_flores_naturais_frescas_antonia_229_1_068a9f00aae2891a1ae8115303276834.jpg" alt="Arranjo Flores Naturais Frescas">
+      <p class="titulo-arranjo">Arranjo Flores Naturais Frescas</p>
+    </div>
+    <div class="arranjo-item">
+      <img src="https://images.tcdn.com.br/img/img_prod/795791/arranjo_floral_luxo_flores_naturais_caminho_da_fazenda_907_1_49b871972c6dc35d2a39abaa502f331c.jpg" alt="Arranjo Floral Luxo Anastácia">
+      <p class="titulo-arranjo">Arranjo Floral Luxo Anastácia</p>
+    </div>
+    <div class="arranjo-item">
+      <img src="https://casadeflores.com.br/wp-content/uploads/2022/03/24D20912-886C-4D9D-BBC4-062F471E9A42.jpeg" alt="Arranjo Florais Coloridos">
+      <p class="titulo-arranjo">Arranjos Florais (Azul, Rosa, Vinho, etc.)</p>
+    </div>
+    <div class="arranjo-item">
+      <img src="https://docemagiaflores.com/wp-content/uploads/2021/08/arranjo-lirios-rosas-2.jpg" alt="Arranjo de Lírios e Rosas Vermelhas">
+      <p class="titulo-arranjo">Arranjos de Lírios e Rosas Vermelhas</p>
+    </div>
+    <div class="arranjo-item">
+      <img src="https://i.pinimg.com/736x/02/4f/9d/024f9d58edab6916bd9426a08719055d.jpg" alt="Arranjo de Lírios Amarelos">
+      <p class="titulo-arranjo">Arranjo de Lírios Amarelos</p>
+    </div>
+    <div class="arranjo-item">
+      <img src="https://images.tcdn.com.br/img/img_prod/1215175/arranjo_elza_com_lirios_brancos_siliconados_no_cahepo_de_ceramica_28ax25l_cm_1229_1_ca597cec2d46bda38f785cf0ee5c7f3a.jpg" alt="Arranjo Elza">
+      <p class="titulo-arranjo">Arranjo Elza</p>
+    </div>
+  </div>
+
+  <section class="frases-flores">
+    <h2>Espalhe Boas Vibrações com Flores</h2>
+    <p>Pressione qualquer tecla e receba uma mensagem inspiradora!</p>
+    <textarea id="caixaTexto" rows="4" cols="50" placeholder="Pressione uma tecla..."></textarea>
+    <p id="mensagemFlor"></p>
+  </section>  
+
+<script src="./js/flowers.js"></script>
+</body>
+</html>

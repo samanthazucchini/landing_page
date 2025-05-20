@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato - Zucchini Garden</title>
+  <link rel="stylesheet" href="flowers.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="./imagens/logo.png" alt="Logo Flower Street" />
+        <span>Zucchini Garden</span>
+      </div>
+      <nav class="nav">
+        <a href="flowers.html">Início</a>
+        <a href="flowers.html#arranjos">Arranjos</a>
+      </nav>
+    </header>
+      
+    <section class="formulario">
+      <h2 class="titulo-contato">Entre em Contato</h2> <!-- MOVIDO AQUI -->
+      <form id="pedidoForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="tipoFlor">Tipo de flor:</label>
+        <select id="tipoFlor" name="tipoFlor">
+          <option value="rosas">Rosas</option>
+          <option value="girassois">Girassóis</option>
+          <option value="orquideas">Orquídeas</option>
+          <option value="orquideas">Se for outra opção descreva abaixo</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit" id="enviarBtn" class="btn">Enviar</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="js/contato.js"></script>
+</body>
+</html>
